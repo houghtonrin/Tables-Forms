@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form" action="mailto:rinhoughton@gmail.com" method = "POST">
+        <!-- NAME -->
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name"><br>
+        <!-- Date -->
+        <label for="date">Today's Date:</label>
+        <input type="date" name = "date" id= "date"><br>
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"><br>
+        <!-- Radio Buttons -->
+        <label for="opinion">What is your opinion of me?</label><br>
+        <input type="radio" id="good_opinion" name ="opinion" value = "Good">
+        <label for="good_opinion">Good</label><br>
+        <input type="radio" id="bad_opinion" name = "opinion" value="Bad">
+        <label for="bad_opinion">Bad</label><br>
+        <input type="radio" id="nuetral_opinion" name = "opinion" value="Nuetral">
+        <label for="nuetral_opinion">Nuetral</label><br>
+        <!-- Dropdown -->
+        <label for="class">Class:</label><br>
+        <select name="class" id="class">
+            <option value="cs1030">CS 1030</option>
+            <option value="cs1400">CS 1400</option>
+            <option value="cs1410">CS 1410</option>
+            <option value="cs2420">CS 2420</option>
+            <option value="cs2350">CS 2350</option>
+            <option value="cs2750">CS 2750</option>
+        </select><br>
+        <!-- text -->
+         <label for="comments">Comments:</label><br>
+         <textarea name="comments" id="comments" rows = "4" cols = "40" placeholder="Please type here">
+         </textarea><br>
+        <!-- Submit -->
+         <button type = "submit">Submit</button><button type = "reset">Reset</button>
+    </form>
+    <a href="index.html">Back to Home</a>
+</body>
+</html>
