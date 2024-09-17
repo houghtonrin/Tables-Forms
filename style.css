@@ -21,3 +21,16 @@ table, th, td{
     border-width: 1px;
     text-align: center;
 }
+thead{
+    text-transform: capitalize;
+    background-color: rgb(96, 151, 151);
+}
+
+tfoot{
+    text-transform: lowercase;
+    background-color: aquamarine;
+}
+
+colgroup{
+    background-color: antiquewhite;
+}
